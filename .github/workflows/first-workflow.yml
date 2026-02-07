@@ -16,4 +16,4 @@ jobs:
           server: ftpupload.net
           username: if0_41092929
           password: 8r1sxY9LsY
-          server-dir: /home/vol13_7/infinityfree.com/if0_41092929/
+          server-dir: /htdocs/
