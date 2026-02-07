@@ -8,3 +8,11 @@ jobs:
         run: echo "Hello from the first job"
       - name: Print goodbye
         run: echo "Bye from the first job"
+      - name: Get the latest code
+        uses: actions/checkout@v4
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ftpupload.net
+          username: if0_41092929
+          password: 8r1sxY9LsY
